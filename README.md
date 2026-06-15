@@ -36,8 +36,13 @@ SynkIndia is a Streamlit app for translating an English source MP4 video into a 
 Example:
 
 ```bash
-pip install streamlit torch opencv-python
+pip install streamlit torch opencv-python numpy librosa openai-whisper deep-translator gTTS
 ```
+
+Additional (recommended) system packages:
+
+- `ffmpeg` (for audio/video extraction and muxing)
+- On Windows, you can install FFmpeg and add it to PATH; on macOS use `brew install ffmpeg`.
 
 ## Run
 
