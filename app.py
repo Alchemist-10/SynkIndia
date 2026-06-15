@@ -4,7 +4,7 @@ from src.pipeline import run_sync_india_pipeline
 
 st.set_page_config(page_title="SyncIndia Dashboard", page_icon="🎬", layout="centered")
 
-st.title("🎬 SyncIndia: Cross-Lingual Video Synthesis Pipeline")
+st.title("🎬 SyncIndia: your go to video Translator to any indian language")
 st.markdown("Automated Deep Learning English-to-Indian-Language Video Translation & Viseme Alignment System.")
 st.write("---")
 
