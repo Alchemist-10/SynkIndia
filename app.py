@@ -13,7 +13,7 @@ target_lang = st.selectbox("🌐 Select Target Regional Indian Language:", [
     ("hi", "Hindi"), ("te", "Telugu"), ("ta", "Tamil"), ("bn", "Bengali"), ("mr", "Marathi")
 ], format_func=lambda x: x[1])
 
-epochs = st.slider("🏋️ Localized Fine-Tuning Optimization Loops (Epochs):", min_value=1, max_value=10, value=3)
+epochs = st.slider("🏋️ Localized Fine-Tuning Optimization Loops (Epochs):", min_value=1, max_value=20, value=3)
 
 if st.button("🚀 Execute Neural Lip-Sync Translation Pipeline", use_container_width=True):
     if uploaded_file is not None:

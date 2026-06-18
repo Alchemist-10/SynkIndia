@@ -8,7 +8,7 @@ __pycache__/
 venv/
 env/
 ENV/
-
+outputs/
 .ipynb_checkpoints/
 
 .env
